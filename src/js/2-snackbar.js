@@ -4,7 +4,6 @@ import 'izitoast/dist/css/iziToast.min.css';
 
 const form = document.querySelector('form');
 
-// Function to create a promise after form submission
 form.addEventListener('submit', function (event) {
   event.preventDefault();
   const userDelay = event.target.elements.delay.value;
